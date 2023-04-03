@@ -131,7 +131,7 @@ SpriteNextByte:
 	ret			;Finished
 
 TestSprite:
-	   DB      &75,&FF,&AA,&00,&00,&00,&00,&00
+	DB      &75,&FF,&AA,&00,&00,&00,&00,&00
         DB      &10,&FF,&FF,&00,&00,&00,&00,&00
         DB      &00,&75,&FF,&FF,&00,&0F,&0A,&00
         DB      &00,&75,&FF,&FF,&FF,&FF,&0F,&00
