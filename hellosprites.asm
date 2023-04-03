@@ -7,7 +7,7 @@ Border		        equ &bc38 ;(b,c)
 Pen			equ &bb90 ;(in: A=foreground color 0..15)
 TextCursor      	equ &bb75 ;(h=x,l=y,a=rollcount)
 MoveCursor	        equ &bb8a ;(h=x,l=y)
-ScrNextLine     	equ &BC26	;out: HL=HL+800h, or HL=HL+50h-3800h (or so)
+ScrNextLine     	equ &BC26 ;out: HL=HL+800h, or HL=HL+50h-3800h (or so)
 ScrDotPosition          equ &BC1D ;in: DE=x, HL=y, out: HL=vram addr, C=mask, DE, B
 
 Black 		        equ 0
